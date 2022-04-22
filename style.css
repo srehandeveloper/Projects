@@ -1,0 +1,115 @@
+body {
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 9, 121, 1) 35%,
+      rgba(0, 212, 255, 1) 100%
+    );
+  }
+  .header {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(22, 134, 118, 1) 35%,
+      rgba(0, 212, 255, 1) 100%
+    );
+    height: 70px;
+  }
+  #zam-zam {
+    font-weight: bolder;
+    width: 40%;
+    color: limegreen;
+    float: left;
+    text-align: center;
+  }
+  #nav {
+    width: 60%;
+    float: right;
+    text-align: center;
+    line-height: 70px;
+  }
+  .nav {
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: large;
+    color: darkblue;
+  }
+  .main {
+    text-align: center;
+  }
+  h1 {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .h3 {
+    background: rgb(55, 211, 12);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(22, 134, 118, 1) 35%,
+      rgba(0, 212, 255, 1) 100%
+    );
+    color: white;
+
+    padding: 10px;
+    border-radius: 50%;
+    width: 40%;
+    margin: 15px auto;
+  }
+  img {
+    border-radius: 20%;
+  }
+  .img {
+    padding-left: 30px;
+  }
+  td {
+    color: yellow;
+    font-weight: bold;
+  }
+  p {
+    color: white;
+  }
+  h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+  h1{
+    background-color: yellow;
+  }
+  h2{
+    background-color: aqua;
+  }
+  .footer {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(22, 134, 118, 1) 35%,
+      rgba(0, 212, 255, 1) 100%
+    );
+    height: 70px;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    color: whitesmoke;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa-facebook {
+    background: #434a74;
+    color: white;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }

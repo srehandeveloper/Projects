@@ -1,0 +1,92 @@
+.navbar-nav{
+    margin-left: auto;
+}
+
+
+
+.fullscreen-landing{
+    background: white url("https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat scroll center;
+    height:100vh;
+    background-size: cover;
+}
+.overlay{
+    background-color: rgba(0,0,0,0.5);
+    height:100%;
+    padding: 200px;
+}
+.search-box{
+    height: 50px;
+    width: 500px;
+}
+
+.subscribe-section{
+    background: white url("https://img.freepik.com/free-photo/fabulous-photo-calm-blue-turquoise-sea_627829-8252.jpg?t=st=1653475096~exp=1653475696~hmac=b29afbd01f0d78d6f740a260f49f50ddd9f2248c6a60b2a3e9523e079e14d861&w=900") no-repeat scroll center;
+    background-size: cover;
+}
+.subscribe-overlay{
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+}
+
+
+/* Footer */
+
+footer{
+    background:rgba(0, 0, 0, 0.8);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+footer p>span{
+    color: #ff512f;
+
+}
+footer input{
+    border: none !important;
+}
+footer input::placeholder{
+    color: white !important;
+
+}
+
+footer .input-group .input-group-text{
+    background: var(--bggradient);
+    border: none;
+}
+
+footer .column i{
+    color: #dd2476;
+}
+footer .column i+i{
+    padding: 0 0.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

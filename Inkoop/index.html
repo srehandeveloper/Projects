@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>           
+.input1{
+margin-top: 100px;
+margin-left: 150px;
+border:2px solid blue; 
+}
+
+.input2{
+margin-top: 150px;
+margin-left: 100px;
+border:2px solid blue; 
+
+}
+.input3{
+margin-top: 150px;
+margin-left: 100px;
+border:2px solid blue; 
+
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+</head>
+<body>    
+        <input  id="i1" class="input1" type="number" >
+        <button class="btn" id="ip1" onclick="fn()" >click</button>
+          <p id="p1"> </p> 
+        <br>
+        <input id="i2" class="input2" type="number" value="number">
+        <button class="btn" id="ip2" onclick="fun()" >click</button>
+        <p id="p1"> </p>
+        <br>
+        <input  id="i3" class="input3" type="number" value="number">    
+        <button class="btn" id="ip2" onclick="fun()" >click</button>
+        <p id="p1"> </p>
+        <script>
+                var h4Ref = document.createElement("h4");
+
+function fn(){
+     var inputRef = document.getElementById("i1");
+   var pRef = document.getElementById("p1");
+     var h4ref = document.createElement("h4");
+   //  h4Ref.append("enter");
+   //  document.input.appendChild(h4Ref);
+    h4Ref.append("Enter a positive number");
+    pRef.appendChild(h4Ref);
+      
+
+     
+}
+fn();
+
+
+let n=0;
+ function fun(){
+    const inputRef = document.getElementById("i2");
+for(let i=0;i<n;i++){
+    if(ip1){
+    i1.addEventListener('click',()=>{
+        console.log(i=i+2);
+    })
+}
+}
+}
+fun()
+
+    </script>
+
+</body>
+</html>
